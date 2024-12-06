@@ -69,6 +69,7 @@ nav a:hover{
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 190px;
+    margin-top: 50px;
 }
 
 .box{
@@ -441,17 +442,17 @@ span{
 @media(max-width: 1000px) {
     .home{
         gap: 4rem;
+        margin-top: 50px;
     }   
     .box .circle img, .box img{
-        width: 100vh;
+        width: 93%;
     }
 }
 
 @media(max-width: 995px){
     .home{
         flex-direction: column;
-        /* margin: 5rem 4rem; */
-        margin: 0px;
+        margin: 4rem 4rem;
     }
     .home .home-content h3{
         font-size: 2rem;
@@ -465,7 +466,7 @@ span{
     }
     .container{
         margin-bottom: 0px;
-        margin-top: 20px;
+        /* margin-top: 200px; */
 
     }
 
@@ -481,6 +482,11 @@ span{
 .home-content p{
   font-size: 0.6rem;
   margin-right: 20%;
+}
+.container{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  /* margin-top: 200px; */
 }
 
 }
